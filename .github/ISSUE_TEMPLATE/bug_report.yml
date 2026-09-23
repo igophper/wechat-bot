@@ -1,0 +1,27 @@
+name: Bug report / 问题反馈
+description: Report a reproducible defect / 提交可复现的问题
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Please remove tokens, QR codes, verification codes, user identifiers, and private messages.
+        请移除凭据、二维码、验证码、用户标识及聊天内容。安全问题请使用 SECURITY.md 的私密渠道。
+  - type: input
+    id: versions
+    attributes:
+      label: SDK version, Go version, OS / 版本与环境
+    validations:
+      required: true
+  - type: textarea
+    id: reproduction
+    attributes:
+      label: Minimal reproduction / 最小复现
+      description: Include a small program or sanitized protocol response where possible.
+    validations:
+      required: true
+  - type: textarea
+    id: behavior
+    attributes:
+      label: Expected and actual behavior / 预期与实际行为
+    validations:
+      required: true

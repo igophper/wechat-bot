@@ -1,0 +1,13 @@
+name: Feature request / 功能建议
+description: Describe a concrete use case / 描述具体使用场景
+body:
+  - type: textarea
+    id: problem
+    attributes:
+      label: Use case and current limitation / 场景与当前限制
+    validations:
+      required: true
+  - type: textarea
+    id: proposal
+    attributes:
+      label: Proposed behavior and alternatives / 期望行为与替代方案

@@ -1,0 +1,12 @@
+/state/
+/.idea/
+.DS_Store
+*.iml
+*.test
+*.out
+/coverage.txt
+/coverage.html
+/dist/
+.env
+.env.*
+!.env.example
